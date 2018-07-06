@@ -1,4 +1,4 @@
-Begin Core.lua By #keanee
+Begin keanee.lua By #keanee
 local function getindex(t,id) 
 	for i,v in pairs(t) do 
 		if v == id then 
