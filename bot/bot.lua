@@ -168,7 +168,7 @@ function create_config( )
     moderation = {data = ''..kenaee..'/data/moderation.json'},
     info_text = [[*》Beyond Helper Bot V1.5*
 `》An helper bot of` *kenaee* `based on` *BDMessenger*
-》[Beyond Helper](https://github.com/kenaee/BDHelper)
+》[Beyond Helper](https://github.com/kenaee/kenaee)
 *》Admins :*
 *》Founder & Developer :* [SoLiD](Telegram.Me/SoLiD)
 _》Developer :_ [ToOfan](Telegram.Me/ToOfan)
