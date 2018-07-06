@@ -1,10 +1,10 @@
 
 
 
-git clone https://github.com/KENAE/KENAE.h.git
+git clone https://github.com/kenaee/keanee.git
 
 
-cd KENAE.h
+cd keanee
 
 
 chmod +x beyond.sh
@@ -19,7 +19,7 @@ chmod +x beyond.sh
 
 
 
-cd KENAE.h
+cd keanee
 
 
 chmod 777 autobd.sh
