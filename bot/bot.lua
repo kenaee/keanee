@@ -303,11 +303,11 @@ function create_config( )
 
 	if server_user:match("^root$") then
 
-		keanee = '/root/BDReborn'
+		keanee = '/root/keanee'
 
 	elseif not server_user:match("^root$") then
 
-		keanee = '/home/'..server_user..'/BDReborn'
+		keanee = '/home/'..server_user..'/keanee'
 
 	end
 
@@ -333,13 +333,13 @@ function create_config( )
 
     info_text = [[*》Beyond Helper Bot V1.5*
 
-`》An helper bot of` *BDReborn* `based on` *BDMessenger*
+`》An helper bot of` *keanee* `based on` *BDMessenger*
 
 》[Beyond Helper](https://github.com/keanee/keanee)
 
 *》Admins :*
 
-*》Founder & Developer :* [SoLiD](Telegram.Me/SoLiD)
+*》Founder & keanee :* [SoLiD](Telegram.Me/SoLiD)
 
 _》Developer :_ [ToOfan](Telegram.Me/ToOfan)
 
