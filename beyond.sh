@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/KENAE.h
+cd $HOME/keanee
 
 install() {
 		sudo apt-get update
@@ -40,7 +40,7 @@ function logo_play() {
 	echo -e "\e[0m"
 }
 
-function KENAE() {
+function keanee() {
 	echo -e "\e[0m"
 	green "     >>>>                       We Are Not Attacker                             "
 	green "     >>>>                       We Are Not Alliance                             "
@@ -76,9 +76,9 @@ elif [ "$1" = "update" ]; then
 	exit 1
 else
 	print_logo
-	KENAE
+	keanee
 	logo_play
-	green "KENAE Helper Bot running..."
+	green "keanee Helper Bot running..."
 	#sudo service redis-server restart
 	lua ./bot/bot.lua
 fi
